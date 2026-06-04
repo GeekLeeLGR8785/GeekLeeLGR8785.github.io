@@ -70,7 +70,7 @@ h2 {
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    color: #2b00ff;
+    color: #e1ff00;
 }
 
 #interests ul {
@@ -99,4 +99,63 @@ h2 {
     color: #00ff95;
     border-color: #00ffe5;
     transform: translateY(-2px);
+}
+.sidebar-img {
+    width: 100%;
+    max-width: 760px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    display: block;
+    border-radius: 24px;
+    filter: grayscale(0%);
+    box-shadow: 0 8px 30px rgba(171, 23, 23, 0.387);
+    transition: filter 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.sidebar-img:hover {
+    filter: grayscale(0%);
+    transform: translateY(-4px);
+    box-shadow: 0 16px 40px rgba(153, 21, 21, 0.18);
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
+    padding: 16px 24px;
+    background: #540606;
+    border: 1px solid #bf5e5e;
+    border-radius: 12px;
+}
+
+nav h1 {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #b300ff;
+}
+
+#nav-ul {
+    list-style: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-li a {
+    color: #b300ff;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 8px;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+
+.nav-li a:hover {
+    background: #9b0d0d;
+    color: #fff;
 }
