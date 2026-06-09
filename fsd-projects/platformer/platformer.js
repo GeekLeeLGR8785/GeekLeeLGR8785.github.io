@@ -35,41 +35,11 @@ createPlatform(10,200, 100,50, "teal") //done
 createPlatform(300, 300, 100, 50, "#ff0505") //done
 createPlatform(500, 200, 100, 50, "#ff0000") //done
 createPlatform(600, 500, 100, 50, "#ff0000") //done
-createPlatform(800, 400, 100, 50, "#6bd539")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-createPlatform(300, 300, 100, 50, "#39abd1")
-
+createPlatform(800, 400, 100, 50, "#6bd539") //done
+createPlatform(1000, 300, 100, 30, "#39abd1") //done
+createPlatform(1300, 200, 100, 50, "#39abd1") //done
+createPlatform(1200, 250, 20, 700, "#39abd1") //done
+createPlatform(1350, 600, 100, 50, "#39abd1") //done
     // TODO 3 - Create Collectables
 
 
