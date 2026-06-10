@@ -40,11 +40,12 @@ $(function () {
     createPlatform(1200, 250, 20, 700, "#ADD8E6"); //done
     createPlatform(1350, 600, 100, 50, "#ADD8E6"); //done
     // TODO 3 - Create Collectables
-    createCollectibles("database", 1350, 50);
-    createCollectibles("steve", 200, 170, 0.5, 0.7);
-    createCollectibles("diamond", 1300, 400)
+    createCollectable("database", 1350, 50);
+    createCollectable("steve", 600, 400, 0.9, 0.7);
+    createCollectable("diamond", 1300, 400);
     // TODO 4 - Create Cannons
-
+    createCannon("top", 200, 500);
+    createCannon("right", 300, 2000);
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
