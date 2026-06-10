@@ -96,10 +96,10 @@ let halleImage;
 let animationDetails = {};
 
 var collectableList = {
-  database: { image: "images/collectables/database.png" },
-  diamond: { image: "images/collectables/diamond-head.png" },
+  database: { image: "https://www.shutterstock.com/image-vector/crypto-currency-golden-coin-black-600nw-593193626.jpg" },
+  diamond: { image: "https://a.storyblok.com/f/178900/200x200/a4012159e2/ef9eacca59a3fd7dc592a2be438f95a31643481871_large.jpg" },
   grace: { image: "images/collectables/grace-head.png" },
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
-  steve: { image: "images/collectables/steve-head.png" },
+  steve: { image: "https://media.craiyon.com/2025-08-15/YYH6VC-yQOyyXpvUJK08Fg.webp" },
 };

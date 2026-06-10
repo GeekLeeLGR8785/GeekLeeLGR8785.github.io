@@ -29,27 +29,22 @@ $(function () {
     // TODO 1 - Enable the Grid
     toggleGrid();
 
-
     // TODO 2 - Create Platforms
-createPlatform(10,200, 100,50, "teal") //done
-createPlatform(300, 300, 100, 50, "#ff0505") //done
-createPlatform(500, 200, 100, 50, "#ff0000") //done
-createPlatform(600, 500, 100, 50, "#ff0000") //done
-createPlatform(800, 400, 100, 50, "#6bd539") //done
-createPlatform(1000, 300, 100, 30, "#39abd1") //done
-createPlatform(1300, 200, 100, 50, "#39abd1") //done
-createPlatform(1200, 250, 20, 700, "#39abd1") //done
-createPlatform(1350, 600, 100, 50, "#39abd1") //done
+    createPlatform(10, 200, 100, 50, "teal"); //done
+    createPlatform(300, 300, 100, 50, "#ff0505"); //done
+    createPlatform(500, 200, 100, 50, "#ff0000"); //done
+    createPlatform(600, 500, 100, 50, "#ff0000"); //done
+    createPlatform(800, 400, 100, 50, "#6bd539"); //done
+    createPlatform(1000, 300, 100, 30, "#39abd1"); //done
+    createPlatform(1300, 200, 100, 50, "#39abd1"); //done
+    createPlatform(1200, 250, 20, 700, "#ADD8E6"); //done
+    createPlatform(1350, 600, 100, 50, "#ADD8E6"); //done
     // TODO 3 - Create Collectables
-
-
-
-    
+    createCollectibles("database", 1350, 50);
+    createCollectibles("steve", 200, 170, 0.5, 0.7);
+    createCollectibles("diamond", 1300, 400)
     // TODO 4 - Create Cannons
 
-
-    
-    
     //////////////////////////////////
     // ONLY CHANGE ABOVE THIS POINT //
     //////////////////////////////////
