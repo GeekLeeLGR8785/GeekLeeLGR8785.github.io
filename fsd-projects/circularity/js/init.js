@@ -22,7 +22,7 @@ var init = function (window) {
     // TODO 2 : Create a function that draws a circle
     function drawCircle() {
       circle = draw.randomCircleInArea(canvas, true, true, "#4c00ff", 2);
-      physikz.addRandomVelocity(circle, canvas, 5, 5);
+      physikz.addRandomVelocity(circle, canvas, 15, 5);
       view.addChild(circle);
       circles.push(circle);
     }
@@ -87,20 +87,17 @@ var init = function (window) {
       }
       
       // if the circle has gone past the BOTTOM side of the screen
-      if (circle.y > 0) {
+      if (circle.y > canvas.height) {
          // then place it on the TOP
-        circle.x < canvas.width;
+        circle.y = 0;
       }
-      // if the circle has gone past the RIGHT side of the screen
-      if (circle.y < 0) {
-         // then place it on the LEFT
-        circle.y > canvas.height;
-      }
+
+    
       
       // if the circle has gone past the LEFT side of the screen
-      if (circle.y > 0) {
+      if (circle.x < 0) {
          // then place it on the RIGHT
-        circle.x < canvas.width;
+        circle.x = canvas.width;
       }
 
       // YOUR TODO 6 CODE ENDS HERE //////////////////////////
