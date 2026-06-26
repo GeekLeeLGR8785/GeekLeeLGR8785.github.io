@@ -82,20 +82,24 @@ var init = function (window) {
       
       // if the circle has gone past the TOP side of the screen
       if (circle.y < 0) {
+         // then place it on the BOTTOM
         circle.y = canvas.height;
       }
       
       // if the circle has gone past the BOTTOM side of the screen
       if (circle.y > 0) {
+         // then place it on the TOP
         circle.x < canvas.width;
       }
       // if the circle has gone past the RIGHT side of the screen
       if (circle.y < 0) {
+         // then place it on the LEFT
         circle.y > canvas.height;
       }
       
       // if the circle has gone past the LEFT side of the screen
       if (circle.y > 0) {
+         // then place it on the RIGHT
         circle.x < canvas.width;
       }
 
